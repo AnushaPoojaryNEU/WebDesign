@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> My Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/images/iconfavicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">My Portfolio</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#intro">Introduction</a></li> 
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#rewards">Achievements</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#details">Contact Details</a></li>
+              <li><a href="#social">Social Media</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+<div id="intro" class="container-fluid">
+
+<div class="row">
+  <div class="col-sm-4">
+  <h1>Hi,<br>I am Anusha Poojary</h1>
+  <br>
+  <h4>Software Engineer| Front-End Developer</h4>
+  <br>
+  <p class="intropara"> Graduate Student at Northeastern University with 3 years of experience as Front-end
+    developer in software industry.<br>
+    <br>Learn more about me by viewing <br> my Portfolio.</p>
+  </div>
+  <div class="col-sm-1" style="padding-top:15px">
+    <div class="dropdown" >
+      <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">My Skills
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">jQuery</a></li>
+        <li><a href="#">Bootstrap</a></li>
+        <li><a href="#">Angular</a></li>
+      </ul>
+  </div>
+</div>
+<div class ="col-sm-1" style="padding-top:15px">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Resume & Github</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Resume & Github Profile</h4>
+        </div>
+        <div class="modal-body">
+          <p class="modalpara"> Navigate to my<a href="https://www.linkedin.com/feed/" target="_blank"> LinkedIn Profile</a> to checkout my Resume and Github.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+</div>
+<div id="about" class="container-fluid">
+  <h1>About Me</h1>
+   <div class="row">
+       <div class="col-sm-3" id="aboutBckgrdImge" ></div>
+       <div class="col-sm-9">
+        <p class="about-info">Innovative software engineer offering experience in the full software development lifecycle,
+            from concept through delivery of next-generation software and customizable solutions.<br> Proficient in advanced
+            development methodologies, tools and processes contributing to the design and rollout of cutting-edge software
+            applications.<br>Known for excellent troubleshooting skills and ability to analyze code and engineer
+            well-researched, cost-effective and responsive solutions.<br>
+            Valued for driving quality and consistency throughout all phases of software development projects.</p>
+            <div class="media">
+                <div class="media-left">
+                  <img src="images/icon.png" class="media-object" style="width:60px">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Education</h4>
+                  <p>Northeastern University, Boston – MA, Master’s in Information System.</p>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                  <img src="images/exp.png" class="media-object" style="width:60px">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Experience</h4>
+                  <p>Narola Infotech, Surat, India — Software Engineer <br>
+                    • Extensively used HTML5, CSS3, bootstrap, media queries and tested front-end code in multiple browsers to
+                    ensure cross- browser compatibility<br>
+                    • Designed dynamic and multi-browser compatible pages using HTML5, CSS3, Bootstrap and Angular2+
+                  </p>
+                </div>
+            </div>
+       </div>
+   </div>
+  </div>
+<div id="projects" class="container-fluid">
+  <h1>My Projects</h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="images/grow.png"
+            class="card-img-top"
+            style="height: 13rem;"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Environnment Web App</h5>
+            <p class="card-text">
+              Delivered a unified view of services for individuals, families, caregivers, and providers by spearheading
+              the development of a service coordination platform.
+            </p>
+            <a href="#" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="./images/stock.jpg"
+            class="card-img-top img-fluid"
+            alt="..."
+            style="height: 13rem;"
+          />
+          <div class="card-body">
+            <h5 class="card-title">StockMarket Web App</h5>
+            <p class="card-text">
+              Built a MEAN stack application to perform CRUD operations, event scheduling activities and tested API’s using
+          Postman including PayPal Payment Gateway
+            </p>
+            <a href="#" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="./images/ecom.png"
+            class="card-img-top"
+            alt="..."
+            style="height: 13rem;"
+          />
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Platform</h5>
+            <p class="card-text">
+              Orchestrated the integration of third-party components, including PayPal Payment Gateway, Google Authentication, and 3D rendering library for data visualization.
+            </p>
+            <a href="#" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="./images/ii.png"
+            class="card-img-top"
+            alt="..."
+            style="height: 13rem;"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Inventory Platform</h5>
+            <p class="card-text">
+              Orchestrated the integration of third-party components, including PayPal Payment Gateway, Google Authentication, and 3D rendering library for data visualization.
+            </p>
+            <a href="#" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+    
+      
+    </div>
+    <br>
+  </div>
+<div id="rewards" class="container-fluid">
+  <h1>Achievements</h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="images/MSC.jpg" alt="MSC" style=" width:80%; height:350px;">
+        <div class="carousel-caption">
+          <h3>Microsoft Certified</h3>
+          <p>Azure Certification 2019</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/aws.png" alt="aws" style="width:80%; height:350px;">
+        <div class="carousel-caption">
+          <h3>AWS Certified</h3>
+          <p>Developer Certification 2020</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/link.jpg" alt="link" style="width:80%; height:350px;">
+        <div class="carousel-caption">
+          <h3>Front End Developer</h3>
+          <p>Coding Certification 2021</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div id="details" class="container-fluid">
+  <h1>Contact Details</h1>
+  <br>
+  <div class="container">        
+    <table class="table table-hover table-condensed table-bordered" id ="table">
+     
+      <tbody>
+        <tr>
+          <td> <span class="glyphicon glyphicon-phone"></span>&emsp;Phone</td>
+          <td>+17813544128</td>
+    
+        </tr>
+        <tr>
+          <td> <span class="glyphicon glyphicon-envelope"></span>&emsp;Email</td>
+          <td>anu61095@gmail.com</td>
+        </tr>
+          <tr>
+          <td><span class="glyphicon glyphicon-home"></span>&emsp;Location</td>
+          <td>Boston,USA</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div id="social" class="container-fluid">
+  <div class="social">
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com/"  target="_blank"> <img src="images/fb.png" class="rounded-circle float-sm-start" alt="FB image" height="32px"
+            width="32px"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.instagram.com/"  target="_blank"> <img src="images/instagram.png" class="rounded-circle float-sm-start" alt="Instagram image"
+            height="32px" width="32px"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://twitter.com/"  target="_blank"> <img src="images/tweet.png" class="rounded-circle float-sm-start" alt="Instagram image"
+            height="32px" width="32px"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/feed/"  target="_blank"> <img src="images/li.png" class="rounded-circle float-sm-start" alt="Instagram image" height="32px"
+            width="32px"></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="www.messenger.com"  target="_blank"> <img src="images/messenger.png" class="rounded-circle float-sm-start" alt="Instagram image"
+            height="32px" width="32px"></a>
+      </li>
+    </ul>
+  </div>
+  <br>
+  <footer>
+    <br>
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy">
+      Built with &#x2661; by
+      Anusha Poojary
+    </p>
+  </footer>
+</div>
+
+
+</body>
+</html>

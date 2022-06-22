@@ -1,0 +1,101 @@
+body {
+    position: relative !important;
+}
+
+#myNavbar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-weight: bold; 
+}
+
+#intro {
+    padding-top: 50px;
+    color: #fff;
+    height: 100%;
+    background-color: #1E88E5;
+    background-image: url('images/bck.jpg');
+    background-position: fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+}
+
+
+
+#myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+  }
+
+#about {
+    padding-top: 50px;
+    height: 100%;
+    color: #fff;
+    background-color: #bc9af6;
+    background-size: cover;
+}
+
+#aboutBckgrdImge{
+    background-image: url('images/aboutImg.jpg');
+    height: 340px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: indigo;
+}
+
+#projects {
+    padding-top: 50px;
+    height: 100%;
+    color: #fff;
+    background-color: #1f2235;;
+}
+
+.card {
+    border-left:  3px solid #f5ba09;
+    border-bottom: 8px solid #f5ba09;
+  }
+
+#rewards {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+#details {
+    padding-top: 50px;
+    height: 250px;
+    color: #fff;
+    background-color: #009688;
+}
+#social {
+    padding-top: 50px;
+    height: 250px;
+    color: #fff;
+    background-color: #009688;
+}
+
+#table{
+    text-align: center;
+    width:780px;
+    color:black;
+}
+
+
+.intropara{
+    color : white;
+    font-size:medium;
+}
+
+.copy{
+    color: white;
+}
+
+.modal{
+    color:black;
+}
+.modalpara{
+    color:black;
+}
