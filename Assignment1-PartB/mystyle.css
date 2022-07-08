@@ -1,0 +1,127 @@
+body,
+html {
+    height: 90%;
+    margin: auto;
+
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+mark{
+    background-color: wheat;
+}
+.chefBackgrdImg {
+    background-image: url("/images/chefbackgrdImage.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110%;
+    top:0;
+    left: 0;
+}
+
+.ScrollNav {
+    height: 130%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  
+  }
+  
+  .ScrollNav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block; 
+  }
+  
+  .ScrollNav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .ScrollNav a.active {
+    background-color: #04AA6D; 
+    color: white;
+  }
+ 
+  .about-content{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      background-color: black;
+      color: #818181;
+      font-size: larger;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+
+  article{
+    background-color: black;
+    color: azure;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .Hobbies{
+      background-color: black;
+      color: azure;
+      text-align:center;
+  }
+
+  .Hobbies .Video{
+    
+    margin:auto;
+    overflow: auto;
+  }
+
+  * {box-sizing:border-box}
+
+
+.Skillcontainer {
+  width: 50%; 
+  margin-left: 400px;
+  background-color: #ddd;
+}
+
+.skill {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.manage {width: 90%; background-color: grey;}
+.cullinary {width: 80%; background-color: grey;}
+.creativity {width: 65%; background-color: grey;}
+
+.row {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 0px;
+  }
+  
+  .column img {
+    margin-left: 0px;
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  footer{
+      text-align: center;
+      background-attachment: fixed;
+      background-color: bisque;
+  }
+
+ 
+  

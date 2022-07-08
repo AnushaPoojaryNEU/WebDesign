@@ -1,0 +1,41 @@
+https://leetcode.com/discuss/interview-question/527769/Lucid-or-OA-or-Gridland
+https://leetcode.com/discuss/interview-question/1028649/Snowflake-or-OA-or-Maximum-order-volume
+https://leetcode.com/discuss/interview-question/424385/snowflake-phone-screen-patching-array
+https://leetcode.com/discuss/interview-question/1486877/snowflake-oa-intern
+https://leetcode.com/problems/patching-array/
+https://leetcode.com/problems/binary-tree-inorder-traversal/ 
+https://mindmajix.com/snowflake-interview-questions
+
+https://leetcode.com/discuss/interview-question?currentPage=1&orderBy=most_relevant&query=snowflake
+https://leetcode.com/discuss/interview-question/2115993/Online-Assessment-Snowflake
+
+https://leetcode.com/discuss/interview-question/689064/Snowflake-or-Phone-or-Best-Interval
+https://leetcode.com/discuss/interview-question/1965084/Snowflake-or-Software-Engineer-or-PhoneCode-Screen
+
+https://leetcode.com/discuss/interview-question/2128106/Snowflake-Intern'22-or-OA-or-USA
+
+https://leetcode.com/discuss/interview-question/577912/Snowflake-or-New-Grad-2020-or-phone-interview
+
+Front End :
+
+ReactJS Carousal; with 5-sec auto-slideshow, circular list, and left-right buttons.
+Nearest Cities
+Compress a string with k consecutive letters; stack based solution
+Core Engineering (Java/C++):
+
+Developer Tester Teams: D developers, T testers, N team size:
+1) Number of ways a team of size N can be arranged where number of developers sitting together are <D; same with T. Its a circular table.
+2) Maximum/Minimum sliding window based question
+3) Closest Pair; Given lists of x and y coordinates; find the points that are closest; I went with a divide and conquer approach
+
+https://leetcode.com/discuss/interview-experience/644975/Snowflake-or-Software-Intern-or-San-Mateo-Remote-Texas-or-May-2020-Offer
+Transaction Logs
+Custom Sorted Array
+Selecting Stocks
+One easy ad-hook.
+Trie.
+Binary search on a 2d prefix sum
+
+Round 1: Implement a group-by operator
+Round 2: Find a word in a 2-d array (required tries + DFS)
+Merge intervals
