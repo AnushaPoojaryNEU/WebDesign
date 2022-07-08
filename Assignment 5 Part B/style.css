@@ -1,0 +1,29 @@
+body{
+  font-family: 'Lucida Sans';
+}
+
+.nav-item{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+  color: whitesmoke;
+  transform: scale(1.2);
+  text-shadow: none;
+}
+
+#myBtn{
+  background-color: rgb(202, 202, 65) ;
+  text-align: center;
+}
+
+#paragraph{
+  display:none;
+}
+
+
+
+

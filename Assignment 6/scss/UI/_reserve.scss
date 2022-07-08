@@ -1,0 +1,75 @@
+.reservePage {
+    background-image: url(/images/pizzabackground.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    padding-top: 3rem;
+
+    h1{
+        font-size: 3.5rem;
+        font-weight: $fw-b;
+        color: $black;
+        padding-top: 0;
+        margin-top: 0; 
+        text-align: center;
+
+    }
+  
+    h2 {
+        font-size: 2rem;
+        font-weight: $fw-b;
+        color: $black;
+        line-height: 1;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0; 
+    
+        span {
+            font-size: 1.5rem;
+            font-weight: $fw-b;
+            color: $black;
+            line-height: 1;
+            text-align: center;
+            padding-top: 0;
+            margin-top: 0; 
+             
+        }
+    
+       
+    
+      }
+
+      .reserve{
+          input,
+          textarea {
+            box-sizing: border-box;
+            display: block;
+            padding: .15em;
+            width: 25%;
+            min-width: 15em;
+            background: lighten($light-gray, 7%);
+            border: 1px solid $light-gray;
+            font-size: 1.2rem;
+            margin: 2em auto;
+          }
+          
+          textarea {
+            resize: vertical;
+            outline: none;
+          }
+          
+          .button {
+            display: block;
+            width: auto;
+            min-width: auto;
+            margin: 1em auto;
+            background: $accent;
+            border: none;
+            @include sans-serif($fs: 2.5rem, $color: $white);
+            padding: .5em 1.5em;
+          }
+          
+      }
+    }

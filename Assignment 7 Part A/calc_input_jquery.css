@@ -1,0 +1,64 @@
+:root {
+    --primary: crimson;
+    --dark: #641d48;
+    --darker:#111827;
+    --light:#F3F4F6;
+}
+
+body{
+    background-color: var(--dark);
+    color:var(--light);
+	font-family: 'Courier New', Courier, monospace;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	margin-top: 150px;
+}
+#login label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+#login_btn{
+	padding-left: 150px;
+	font-weight: bold;
+	color: cornsilk;
+
+}
+#login div{
+	margin-top: 1em;
+}
+
+.error{
+	display: none;
+	margin-left: 10px;
+}
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+
+.error_Pass{
+    display: none;
+	margin-left: 10px; 
+}
+
+.error_Pass_show{
+    color: red;
+	margin-left: 10px; 
+}
+
+.error_P{
+    display: none;
+	margin-left: 10px; 
+}
+
+button:hover{
+    opacity:0.7;
+}
+
+button:active{
+    background-color:var(--dark);
+}
+

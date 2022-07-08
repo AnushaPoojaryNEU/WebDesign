@@ -1,0 +1,23 @@
+:root {
+    --primary: crimson;
+    --dark: #641d48;
+    --darker:#111827;
+    --light:#F3F4F6;
+}
+
+body{
+    background-color: var(--dark);
+    color:var(--light);
+	font-family: 'Courier New', Courier, monospace;
+    text-align: center;   
+}
+
+#lblData{
+    padding-top: 20px;
+}
+
+#main{
+    padding-top: 50px;
+}
+
+

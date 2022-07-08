@@ -1,0 +1,37 @@
+#login label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+#login_btn{
+	padding-left: 100px;
+}
+#login div{
+	margin-top: 1em;
+}
+
+.error{
+	display: none;
+	margin-left: 10px;
+}
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+
+.error_Pass{
+    display: none;
+	margin-left: 10px; 
+}
+
+.error_Pass_show{
+    color: red;
+	margin-left: 10px; 
+}
+
+.error_P{
+    display: none;
+	margin-left: 10px; 
+}
+

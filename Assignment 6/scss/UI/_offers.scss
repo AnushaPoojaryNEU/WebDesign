@@ -1,0 +1,38 @@
+.offers {
+    display: flex;
+    color: rgba($white, .7);
+    padding: 50px;
+
+    
+    h2 {
+      color: $white;
+ 
+      &::after {
+        content: '';
+        width: 20%;
+        height: 1px;
+        background: rgba($white, .5);
+        display: block;
+        margin: 1em auto 0
+      }
+    }
+    
+
+   }
+ 
+  .offers-middle {
+    background: $dark-blue;
+    padding: 2.5em 5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .offers-left img,
+  .offers-right img {
+   object-fit: cover;
+   min-height: 100%;
+   min-width: 100%;
+   display: block;
+  }

@@ -1,0 +1,22 @@
+.grid-container {
+    h1{
+        text-align: center;
+    }
+    grid-template-columns: auto auto auto;
+    background-color: $black;
+    justify-content: center;
+    align-items: center;
+    @include container($max-width: 50em);
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $black;
+    padding: 0px;
+    color: $white;
+    border: .5px solid $dark-blue;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }

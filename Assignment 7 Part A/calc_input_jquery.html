@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   
+    <link rel="stylesheet" href="calc_input_jquery.css">
+    <title> Calculator</title>
+</head>
+
+<body>
+<h2>Hello, Login to Use Calculator Application</h2>
+<form id="login" method="post" action="">
+
+    <div>
+        <label for="username">UserName:</label>
+        <input type="text" id="login_username" name="username" required="required"></input>
+        <span class="error">Enter valid username</span>
+    </div>
+
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="login_password" name="password" required="required"></input>
+        <span class="error">Password should satisfy all criteria</span>
+        <div id="Length" class="error_P">Must be at least 7 charcters</div>
+        <div id="UpperCase" class="error_P">Must have atleast 1 upper case character</div>
+        <div id="LowerCase" class="error_P">Must have atleast 1 lower case character</div>
+        <div id="Numbers" class="error_P">Must have atleast 1 numeric character</div>
+        <div id="Symbols" class="error_P">Must have atleast 1 special character</div>
+
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="login_email" name="email" required="required"></input>
+        <span class="error">A valid email address is required</span>
+    </div>
+
+    <div id="login_btn">
+        <button type="submit">Login</button>
+        <script src="calc_input_jquery.js"></script>
+        
+    </div>
+</form>
+
+</body>
+
+</html>

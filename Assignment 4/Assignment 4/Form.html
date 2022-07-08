@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Feedback</title>
+  <script src="script.js"></script>
+  <style>
+    label {	float: left;
+			width: 150px;}
+      #container{
+          width: 700px;
+          margin: auto;
+          background-color: beige;
+      } 
+      main{
+          padding: 50px;
+      }
+	  legend {
+		  padding-left: 5px;
+		  padding-right: 5px;
+	  }
+  </style>
+ </head>
+ <body>
+ <div id="container">
+	 
+	 <main>
+	 <h2>Feeback</h2>
+	 <h3>Love something? Hate something? Let us know!</h3>
+		 Note : Fields marked with an asterisk(*) are mandatory
+		 <br><br>
+		 <form id="myForm" onsubmit="submitdata()" action="table.html">
+			<fieldset>
+				<legend>Information Form</legend>
+				<br/>
+			<label>Title*:</label>
+			<input type="radio" name="title" id="miss" value="miss" required="required"/>Miss
+			<input type="radio" name="title" id="mr" value="mr" required="required"/>Mr.
+			<input type="radio" name="title" id="mrs" value="mrs" required="required"/>Mrs.
+			<br><br>
+			<label for="firstName">First Name*:</label>
+			<input type="text" name="firstName" id="firstName" placeholder="First Name" required="required" onblur="validateInputFields(this,1,firstName)"/>	
+			<br><br>
+			<div id="errorMsgfirstName" style="display:none;color:red">
+				Please enter valid First name. Only text values permitted.
+			<br/><br />
+		    </div>
+			
+
+			<label for="lastName">Last Name*:</label>
+			<input type="text" name="lastName" id="lastName" placeholder="Last Name"  required="required" onblur="validateInputFields(this,2,lastName)" />
+			<br><br>
+			<div id="errorMsglastName" style="display:none;color:red">
+				Please enter valid Last name. Only text values permitted.
+			<br /><br />
+			</div>
+			
+
+			<label for="emailId">Email Id*:</label>
+			<input type="text" name="emailId" id="emailId" placeholder="yourname@domain.com"  required="required" onblur="validateInputFields(this,3,emailId)"/>
+			<br><br>
+			<div id="errorMsgEmailId" style="display:none;color:red">
+				Please enter valid email id. Email should be in proper format.
+			<br /><br />
+			</div>
+			
+
+			<label for="phoneNumber">Phone Number*:</label>
+			<input type="text" name="phoneNumber" id="phoneNumber" placeholder="xxx-xxx-xxxx"  required="required" onblur="validateInputFields(this,4,phoneNumber)"/>
+			<br><br>
+			<div id="errorMsgPhone" style="display:none;color:red">
+				Please enter valid input. Only numerical values permitted and format must be xxx-xxx-xxxx.
+			<br /><br />
+			</div>
+
+			<label for="streetAddress1">Street Address 1*:</label>
+			<input type="text" name="streetAddress1" id="streetAddress1" placeholder="address" required="required" />
+			<br><br>
+
+			<label for="streetAddress2">Street Address 2:</label>
+			<input type="text" name="streetAddress2" id="streetAddress2" placeholder="address"  />
+			<br><br>
+
+			<label for="city">City:</label>
+
+			<select id="city" onchange="addCheckbox(this.value)" required>
+				<option value="" disabled selected hidden>--Select--</option>
+				<option value="Boston">Boston</option>
+				<option value="Los Angeles">Los Angeles</option>
+				<option value="New York">New York</option>
+				<option value="San Franciso">San Francisco</option>
+				<option value="Minneapolis">Minneapolis</option>
+			</select>
+			<br/><br/>
+			<div id="checkbox" style="display: none; margin-left: 144px; padding-bottom: 10px; "> 
+			<br/><br/>
+			</div>
+            
+			<label for="state">State*:</label>
+			<input type="text" name="state" id="state" placeholder="state" required="required" />
+			<br><br>
+			
+            <label for="zipcode">ZipCode*:</label>
+			<input type="text" name="zipcode" id="zipcode" placeholder="xxxxxx" required="required" onblur="validateInputFields(this,5,zipcode)" />
+			<br><br>
+			<div id="errorMsgzipcode" style="display:none;color:red">
+				Please enter valid input. Only numerical values permitted.
+			<br /><br />
+			</div>
+             
+            <label for="socialMedia">How did you hear*:</label>
+			<input type='checkbox' name="source" value="facebook" onblur="validateInputFields(this,6,source)"/> Facebook
+            <input type='checkbox' name="source" value="google" onblur="validateInputFields(this,6,source)" /> Google
+            <input type='checkbox' name="source" value="yelp" onblur="validateInputFields(this,6,source)"/> Yelp 
+			<br><br> 
+			<div id="errorMsgSource" style="display:none;color:red">
+				Please select atleast one checkbox to proceed.
+			<br /><br />
+			</div>
+
+			<label for="comments">Comments*:</label>
+			<textarea name="text" id="comments" placeholder="Your comments" rows="5" cols="25" required="required"></textarea>
+			<br><br>
+			<input type="submit">
+			<input type="Reset">
+			<br><br>
+			</fieldset>
+		 </form>
+	 </main>
+ </div>
+
+ <script>
+ 
+ </script>
+
+ </body>
+</html>

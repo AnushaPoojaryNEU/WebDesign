@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "table.js"></script>
+    <style>
+    #container{
+          width: 700px;
+          margin: auto;
+          background-color: beige;
+      } 
+    table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 80%;
+		margin-left:auto;
+		margin-right:auto;
+        padding-bottom: 10px;
+  	}
+
+	td, th {
+		border: 2px solid #dddddd;
+		text-align: left;
+		padding: 15px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #dddddd;
+	}
+    .backBtn {
+        margin-left: 140px;
+    }
+    #back {
+        width: 5em;
+    }
+    </style>
+</head>
+<body onload="displayData()">
+    <h3 style="text-align: center;">Form Details</h3>
+    <div class="container" >   
+        <table id="userTable" style="display:none;">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Street Address 1</th>
+                <th>Street Address 2</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Zipcode</th>
+                <th>How did you hear from?</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+          
+        </table>
+        <div class="backBtn">
+            <input type="button" value="Back" id="back" onclick="goToForm()">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.home {
+    background-image: url(/images/menuBackgrd.jpg);
+    background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+    h1 {
+        
+    @include sans-serif($fs: 6.5rem, $color: $black);
+    display: block;
+
+    span{
+        font-size: 2rem;
+        font-weight: $fw-b;
+        color: $black;
+        margin: 5em 30em 10em 0em;
+        display: block;
+        font-family:$ff-s;
+        text-transform: none;
+    }
+}
+
+
+}

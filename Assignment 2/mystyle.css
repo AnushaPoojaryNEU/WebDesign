@@ -1,0 +1,295 @@
+body,
+html {
+    height: 90%;
+    margin: auto;
+
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+mark{
+    background-color: wheat;
+}
+.backgrdImg {
+    margin-top: 0px;
+    background-image: url("/images/b.jpg");
+    /*filter: grayscale(100%);*/
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 120%;
+    padding:0px;
+    width:820px;
+    height:auto;
+    margin: auto;
+    overflow:hidden;
+}
+
+.ScrollNav {
+    height: 130%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  
+  }
+  
+  .ScrollNav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: whitesmoke;
+    display: block; 
+  }
+  
+  .ScrollNav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .ScrollNav a.active {
+    background-color: #04AA6D; 
+    color: white;
+  }
+
+  .info{
+    margin-top: 80px;
+    margin-left: 250px;
+    font-size: 25px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  .resume{
+    margin-left: 250px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .resume:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .about-section{
+    width: 100%;
+    position: relative;
+    padding: 150px 100px 0;
+    top: 0;
+    background-color: #000;
+    min-height: 150%;
+  }
+
+  .about-header{
+    color: #f1f1f1;
+    margin-left: 50%;
+    font-family:"Montserrat";
+  }
+
+  .about-content{
+      width: 100%;
+      display: grid;
+      grid-template-columns :30% 65%;
+  }
+
+  .about-container{
+    margin-left: 75px;
+    position: relative;
+    
+  }
+
+  .about-info{
+    color: #fff;
+    font-size: 20px;
+    line-height:40px;
+    margin-left: 100px;
+    display: inline-block;
+  }
+  
+  details > summary {
+    border-style: solid;
+    border-color: wheat;
+    padding: 4px;
+    width: 200px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    background-color: #000;
+    border: none;
+    box-shadow: 1px 1px 2px #000;
+    cursor: pointer;
+  }
+  
+  details > p {
+    color: #f1f1f1;
+    background-color: #000;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #000;
+  }
+
+  * {box-sizing:border-box}
+
+ 
+  .Skills{
+    padding: 0%;
+    background-image: url("/images/skills.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding:0px;
+    width:820px;
+    height:auto;
+    margin: auto;
+    overflow:hidden;
+  }
+
+  .container {
+    width: 50%;
+    margin-left: 400px;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+
+  #certificates{
+    background-image: url("https://images.benefitspro.com/contrib/content/uploads/sites/412/2020/05/stars-newsmakers-roundup.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    padding:0px;
+    width:820px;
+    height:auto;
+    margin: auto;
+    overflow:hidden;
+}
+
+.image-container{
+  float:left;
+  width:250px;
+  height:200px;
+  position:relative;
+  margin-left:200px;
+  cursor:pointer;
+}
+
+.image-container img{
+  width:250px;
+  height:200px; 
+  position:absolute;
+  padding-top: 10px;
+}
+
+.image-caption {
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.7);
+  position:absolute; 
+  opacity:0; 
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
+
+.image-caption h1{
+  padding:45px 0px 5px 0px;
+  text-align:center;
+  margin-left:-15px;
+  text-transform:uppercase;
+  font-family: 'Indie Flower', cursive;
+  font-size:23px;
+  color:#00bfb6;
+}
+
+.image-caption p{
+  text-align:center; 
+  font-family: 'Overpass Mono', monospace;
+  color:#fff;
+}
+
+.image-container:hover .image-caption{
+  opacity:1;
+}
+
+
+footer {
+
+  background-color: var(--bg-color);
+  padding: 0rem;
+  text-align: center;
+  margin: 2rem 0 0;
+  color: whitesmoke;
+}
+
+.background{
+  background-image: url("https://idas.ai/images/contact-us.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 35%;
+  top:0;
+  left: 0;
+}
+
+.projects{
+  background-color: thistle;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 70%;
+  padding:0px;
+  width:820px;
+  height:auto;
+  margin: auto;
+  overflow:hidden;
+}
+
+.column {
+  float: left;
+  margin-left: 15%;
+  width: 25%;
+  height: 50%;
+  padding: 0px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 768px) {
+  .column  {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .column  {
+    width: 100%;
+  }
+}
