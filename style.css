@@ -18,15 +18,57 @@ body {
     background-size: cover!important;
 }
 
-
-
-#myInput {
-    padding: 20px;
-    margin-top: -6px;
-    border: 0;
-    border-radius: 0;
-    background: #f1f1f1;
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
   }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    font-size: 16px;
+    color:black;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;;
+    min-width: 150px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:solid underline;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
 
 #about {
     padding-top: 50px;
@@ -37,7 +79,7 @@ body {
 }
 
 #aboutBckgrdImge{
-    background-image: url('images/aboutImg.jpg');
+    background-image: url('images/aboutImg1.png');
     height: 340px;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -98,4 +140,10 @@ body {
 }
 .modalpara{
     color:black;
+}
+
+#social a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
